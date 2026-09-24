@@ -41,15 +41,13 @@ LinkedIn Post Creation
 
 ## Testing
 
-The workflow components were tested during development.
+The workflow components were tested individually during development.
 
-- The webhook trigger was tested using a generated HTTP request.
-- The LinkedIn post creation action was tested successfully.
-- Pipedream returned a successful execution result for the LinkedIn action.
+- The HTTP webhook trigger was configured and successfully received a generated test event.
+- The LinkedIn post creation action was tested successfully in Pipedream's test environment.
+- Pipedream returned the result: `Successfully created a new Post as User`.
 
-Example result:
-
-`Successfully created a new Post as User`
+The complete trigger-to-LinkedIn flow was not re-tested after the final webhook event to avoid creating duplicate public LinkedIn posts.
 
 ## Project Status
 
