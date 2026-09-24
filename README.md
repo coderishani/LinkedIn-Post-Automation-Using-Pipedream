@@ -61,11 +61,11 @@ Production deployment was not enabled because deployment requires a plan that is
 
 ### Workflow
 
-D:\User Data\Downloads\workflow.jpeg
+![Workflow](screenshots/D:\User Data\Downloads\workflow.jpeg)
 
 ### Successful LinkedIn Post Creation
 
-D:\User Data\Downloads\successful-execution.jpeg
+![Successful LinkedIn Post Creation](screenshots/D:\User Data\Downloads\successful-execution.jpeg)
 
 ## Learning Outcomes
 
