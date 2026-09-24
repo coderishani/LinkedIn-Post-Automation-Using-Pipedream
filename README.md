@@ -61,11 +61,11 @@ Production deployment was not enabled because deployment requires a plan that is
 
 ### Workflow
 
-![Pipedream Workflow](screenshots/workflow.png)
+D:\User Data\Downloads\workflow.jpeg
 
 ### Successful LinkedIn Post Creation
 
-![Successful Execution](screenshots/successful-execution.png)
+D:\User Data\Downloads\successful-execution.jpeg
 
 ## Learning Outcomes
 
