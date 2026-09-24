@@ -1,77 +1,103 @@
-# LinkedIn Post Automation Using Pipedream
+# Pipedream Workflow Automation Projects
 
-A Pipedream workflow designed to automate LinkedIn post creation using a webhook trigger and LinkedIn integration.
+A collection of workflow automation projects built and tested using **Pipedream**, integrating external services, APIs, webhooks, and automation logic.
 
-## Project Overview
+## Projects
 
-This project demonstrates how workflow automation can be used to trigger and create LinkedIn posts programmatically.
+### 1. LinkedIn Post Automation Using Pipedream
 
-The workflow consists of:
+A Pipedream workflow designed to create LinkedIn posts using a webhook trigger and LinkedIn integration.
 
-- An HTTP webhook trigger
-- A LinkedIn post creation action
-- Configured post text
-- An article/image URL
-- Successful execution testing
+**Workflow:**
+HTTP Webhook → LinkedIn Post Creation
 
-## Workflow
-
-Webhook Trigger
-↓
-LinkedIn Create Post
-↓
-Post Text + Article/Image URL
-↓
-LinkedIn Post Creation
-
-## Tools & Technologies
-
+**Tools & Technologies:**
 - Pipedream
 - LinkedIn
 - Webhooks
 - Workflow Automation
 
-## How It Works
+**Key Learning:**
+- Webhook-based triggers
+- Connecting external services
+- LinkedIn integration
+- Event-driven workflow automation
+- Testing workflow components
 
-1. An HTTP request is received by the Pipedream webhook.
-2. The webhook provides event data to the workflow.
-3. The LinkedIn action uses the configured LinkedIn account.
-4. Post text and an article/image URL are supplied.
-5. Pipedream sends the post creation request to LinkedIn.
+#### Screenshots
 
-## Testing
+**Workflow**
 
-The workflow components were tested individually during development.
+![LinkedIn Workflow](linkedin-post-automation/screenshots/workflow.jpeg)
 
-- The HTTP webhook trigger was configured and successfully received a generated test event.
-- The LinkedIn post creation action was tested successfully in Pipedream's test environment.
-- Pipedream returned the result: `Successfully created a new Post as User`.
+**Successful LinkedIn Post Creation**
 
-The complete trigger-to-LinkedIn flow was not re-tested after the final webhook event to avoid creating duplicate public LinkedIn posts.
+![Successful LinkedIn Post Creation](linkedin-post-automation/screenshots/successful-execution.jpeg)
+
+---
+
+### 2. Pipedream + LinkedIn + Groq AI + Gmail Workflow
+
+A multi-service automation workflow that uses LinkedIn data and Groq AI to generate an **AI-powered cover letter**, with Gmail used to deliver the generated result.
+
+**Workflow:**
+Webhook Trigger → LinkedIn → Groq AI (HTTP Request) → Gmail
+
+**Tools & Technologies:**
+- Pipedream
+- LinkedIn
+- Groq AI
+- Gmail
+- HTTP Requests
+- Workflow Automation
+
+**Key Learning:**
+- Integrating multiple external services
+- Working with APIs through HTTP requests
+- Integrating AI into an automation workflow
+- Generating AI-powered content
+- Connecting workflow outputs to Gmail
+
+#### Screenshot
+
+![Groq AI LinkedIn Gmail Workflow](groq-ai-linkedin-gmail/workflow.jpeg)
+
+---
+
+### 3. Indian Railways Workflow Using Pipedream
+
+A workflow automation project built around an **Indian Railways-related use case** using Pipedream.
+
+**Tools & Technologies:**
+- Pipedream
+- Webhooks / APIs
+- Workflow Automation
+
+**Key Learning:**
+- Event-driven automation
+- Working with external data/services
+- Building multi-step workflows
+
+#### Screenshot
+
+![Indian Railways Workflow](indian-railways/workflow.jpeg)
+
+---
+
+## Overall Learning Outcomes
+
+Through these projects, I gained hands-on experience with:
+
+- Workflow automation using Pipedream
+- Webhook-based triggers
+- API and external-service integrations
+- Multi-step automation workflows
+- AI-powered workflow integration
+- Event-driven workflows
+- Testing and debugging automation workflows
 
 ## Project Status
 
-The workflow was developed and tested in Pipedream.
+These projects were developed and tested during the learning process using Pipedream.
 
-Production deployment was not enabled because deployment requires a plan that is not available under the current account.
-
-## Screenshots
-
-### Workflow
-
-![Workflow](screenshots/workflow.jpeg)
-
-### Successful LinkedIn Post Creation
-
-![Successful LinkedIn Post Creation](screenshots/successful-execution.jpeg)
-
-## Learning Outcomes
-
-Through this project, I learned about:
-
-- Webhook-based workflow triggers
-- Workflow automation
-- Connecting external services
-- LinkedIn integrations
-- Testing automation workflows
-- Event-driven workflows
+Production deployment availability may depend on the Pipedream plan and the requirements of individual workflows.
