@@ -64,7 +64,7 @@ Webhook Trigger → LinkedIn → Groq AI (HTTP Request) → Gmail
 
 ![Groq AI LinkedIn Gmail Workflow](groq-ai-linkedin-gmail/screenshots/groq-ai-linkedin-gmail-workflow.png)
 
-**Email Sent Successfully**
+**Cover letter successfully sent to Gmail**
 
 ![Groq AI LinkedIn Gmail Successful Execution](groq-ai-linkedin-gmail/screenshots/groq-ai-linkedin-gmail-successful-execution.jpeg)
 
@@ -72,21 +72,42 @@ Webhook Trigger → LinkedIn → Groq AI (HTTP Request) → Gmail
 
 ### 3. Indian Railways Workflow Using Pipedream
 
-A workflow automation project built around an **Indian Railways-related use case** using Pipedream.
+A multi-step automation workflow that retrieves Indian Railways information, generates AI-powered summaries, and delivers the results through Gmail.
+
+**Capabilities:**
+- Get train live status
+- Get train schedule
+- Check seat availability
+- Generate AI summaries
+- Send results through Gmail
+
+**Workflow:**
+Webhook Trigger → Railway API Requests → AI Processing → Gmail
 
 **Tools & Technologies:**
 - Pipedream
-- Webhooks / APIs
+- APIs / HTTP Requests
+- AI / Generative AI
+- Gmail
+- Webhooks
 - Workflow Automation
 
 **Key Learning:**
-- Event-driven automation
-- Working with external data/services
+- Working with external APIs
 - Building multi-step workflows
+- Integrating AI into automation
+- Processing and summarizing external data
+- Delivering automated results through email
 
-#### Screenshot
+#### Screenshots
 
-![Indian Railways Workflow](indian-railways/workflow.jpeg)
+**Workflow**
+
+![Indian Railways Workflow](indian-railways/screenshots/indian-railways-workflow-using-pipedream-workflow.png)
+
+**Results successfully sent to Gmail**
+
+![Indian Railways Workflow](indian-railways/screenshots/indian-railways-workflow-using-pipedream-successful-execution.png)
 
 ---
 
