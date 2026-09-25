@@ -34,6 +34,10 @@ HTTP Webhook → LinkedIn Post Creation
 
 ![Successful LinkedIn Post Creation](linkedin-post-automation/screenshots/successful-execution.jpeg)
 
+**Actual LinkedIn Post**
+
+![Actual LinkedIn Post](linkedin-post-automation/screenshots/actual-result-proof.jpeg)
+
 ---
 
 ### 2. Pipedream + LinkedIn + Groq AI + Gmail Workflow
