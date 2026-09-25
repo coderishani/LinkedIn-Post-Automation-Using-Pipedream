@@ -58,9 +58,15 @@ Webhook Trigger → LinkedIn → Groq AI (HTTP Request) → Gmail
 - Generating AI-powered content
 - Connecting workflow outputs to Gmail
 
-#### Screenshot
+#### Screenshots
 
-![Groq AI LinkedIn Gmail Workflow](groq-ai-linkedin-gmail/workflow.jpeg)
+**Workflow**
+
+![Groq AI LinkedIn Gmail Workflow](groq-ai-linkedin-gmail/screenshots/groq-ai-linkedin-gmail-workflow.png)
+
+**Email Sent Successfully**
+
+![Groq AI LinkedIn Gmail Successful Execution](groq-ai-linkedin-gmail/screenshots/groq-ai-linkedin-gmail-successful-execution.jpeg)
 
 ---
 
